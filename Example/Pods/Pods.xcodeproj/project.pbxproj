@@ -11,9 +11,14 @@
 		1A4968286A32C64DBCCBAC1BC1F30400 /* Pods-scPO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF280C67BDF745D6170AECAE0516B843 /* Pods-scPO_Tests-dummy.m */; };
 		718A376E8E6FEFF2917D3F5BBB5C9402 /* scPO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB155F06D5715CBA623AFB411F4FE8F /* scPO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7390693B54C79F901F1AE1B7E339F935 /* Pods-scPO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7E5663B0D308804AACCE76FF32A4E1 /* Pods-scPO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825A7D8A25B18BBA007F9ABF /* SCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A7D8825B18BBA007F9ABF /* SCView.h */; };
+		825A7D8B25B18BBA007F9ABF /* SCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A7D8825B18BBA007F9ABF /* SCView.h */; };
+		825A7D8C25B18BBA007F9ABF /* SCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A7D8825B18BBA007F9ABF /* SCView.h */; };
+		825A7D8D25B18BBA007F9ABF /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A7D8925B18BBA007F9ABF /* SCView.m */; };
+		825A7D8E25B18BBA007F9ABF /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A7D8925B18BBA007F9ABF /* SCView.m */; };
+		825A7D8F25B18BBA007F9ABF /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A7D8925B18BBA007F9ABF /* SCView.m */; };
 		855AB5A41523E8C3D80F1F5DDE81AF7D /* scPO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F09E1B936D0A8CC2466300764D798 /* scPO-dummy.m */; };
 		B0D4D4EE0885F3CC46F33837ED704A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B246EDB4DB1812B2675CF7C0D2ED80FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F26F6625DDF8F4AA423AB16A912E4A6A /* ReplaceMe.m */; };
 		C1FC0AA9D0058894AE5C441871D4D9AB /* Pods-scPO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 247C97A55A1F13BA8518413CFD0CB34E /* Pods-scPO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEB60050AC927439724143C8A5AB566B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F2F8DC42D80E1BD1B9CB14FF9E9809B0 /* Pods-scPO_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D42EB9B8275D17AD071413EED44A1AD /* Pods-scPO_Example-dummy.m */; };
@@ -39,36 +44,37 @@
 /* Begin PBXFileReference section */
 		1E73075A313FB2543030F2FAB32B237A /* Pods-scPO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scPO_Example.release.xcconfig"; sourceTree = "<group>"; };
 		247C97A55A1F13BA8518413CFD0CB34E /* Pods-scPO_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-scPO_Example-umbrella.h"; sourceTree = "<group>"; };
-		2C11355A6EE7E8B1AF3DDC4923B912E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2C5BE4A7C470DD7938C569B455E493AA /* scPO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = scPO.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2CF1388FE8B7EDD24A9212EA27FC493C /* Pods_scPO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_scPO_Tests.framework; path = "Pods-scPO_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C11355A6EE7E8B1AF3DDC4923B912E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2C5BE4A7C470DD7938C569B455E493AA /* scPO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = scPO.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CF1388FE8B7EDD24A9212EA27FC493C /* Pods_scPO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scPO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F6A2C927B3F8CDF3F294435318AF80 /* scPO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "scPO-prefix.pch"; sourceTree = "<group>"; };
 		4D7E5663B0D308804AACCE76FF32A4E1 /* Pods-scPO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-scPO_Tests-umbrella.h"; sourceTree = "<group>"; };
 		54CE92A9D52E256B358CF475C5F52B4C /* Pods-scPO_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-scPO_Example.modulemap"; sourceTree = "<group>"; };
-		60ED008859F9D2AE99A79D6508FE2CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		60ED008859F9D2AE99A79D6508FE2CF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		652CC9157A19727D876F8104E438D1B7 /* scPO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = scPO.release.xcconfig; sourceTree = "<group>"; };
 		6C1213C204F7707FC3F66786D10F89EC /* Pods-scPO_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scPO_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78B93E0541C499BE976255240BB01784 /* Pods-scPO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scPO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BE79132109DD9E3B8BCEA1B5185C4CF /* Pods-scPO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scPO_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7D42EB9B8275D17AD071413EED44A1AD /* Pods-scPO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scPO_Example-dummy.m"; sourceTree = "<group>"; };
+		825A7D8825B18BBA007F9ABF /* SCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCView.h; sourceTree = "<group>"; };
+		825A7D8925B18BBA007F9ABF /* SCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCView.m; sourceTree = "<group>"; };
 		894F09E1B936D0A8CC2466300764D798 /* scPO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "scPO-dummy.m"; sourceTree = "<group>"; };
 		8DB155F06D5715CBA623AFB411F4FE8F /* scPO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "scPO-umbrella.h"; sourceTree = "<group>"; };
 		8E4FD844DC100F6EB7DBDD7014D759BE /* scPO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "scPO-Info.plist"; sourceTree = "<group>"; };
 		8F8655AA16F8EDF7061F5CB7D8FB5150 /* Pods-scPO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scPO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F8E3EF02237CA90FE25EA2858D2E571 /* Pods-scPO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scPO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A3C276601AEDFEBEA9D16697BCE4288C /* Pods-scPO_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scPO_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B13E97E3331F697CB730CB9AFBAC51A8 /* Pods_scPO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_scPO_Example.framework; path = "Pods-scPO_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13E97E3331F697CB730CB9AFBAC51A8 /* Pods_scPO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scPO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F0646EFE9F67DA26D406D61FF693F9 /* Pods-scPO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scPO_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5E6156FB40A6CA255C45C8F2E807BD0 /* scPO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = scPO.framework; path = scPO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E6156FB40A6CA255C45C8F2E807BD0 /* scPO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = scPO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D845F8E435F293C2231670E483683D00 /* Pods-scPO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scPO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD578D01DD129ED7E8FB05FCD2EA50A1 /* Pods-scPO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scPO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E703F63FA0F434CA48D9D74F16AB9216 /* scPO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = scPO.debug.xcconfig; sourceTree = "<group>"; };
 		EA63A8E2F15FB50EE1E324C0D4E899C2 /* scPO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = scPO.modulemap; sourceTree = "<group>"; };
 		EF280C67BDF745D6170AECAE0516B843 /* Pods-scPO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scPO_Tests-dummy.m"; sourceTree = "<group>"; };
 		F0430151F8BFF40908F22312FE14D8B1 /* Pods-scPO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-scPO_Tests.modulemap"; sourceTree = "<group>"; };
-		F26F6625DDF8F4AA423AB16A912E4A6A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = scPO/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		F5F849AD3FD7084B765D03CCE8673DBB /* Pods-scPO_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scPO_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,9 +211,10 @@
 		DCFFA5B0626CA0C6C9434AF50848E370 /* scPO */ = {
 			isa = PBXGroup;
 			children = (
-				F26F6625DDF8F4AA423AB16A912E4A6A /* ReplaceMe.m */,
 				DF347597AC77202B1A71A6C45F754A63 /* Pod */,
 				0301468DE0ABD212C3BBD5D3B4CB4454 /* Support Files */,
+				825A7D8825B18BBA007F9ABF /* SCView.h */,
+				825A7D8925B18BBA007F9ABF /* SCView.m */,
 			);
 			name = scPO;
 			path = ../..;
@@ -231,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1FC0AA9D0058894AE5C441871D4D9AB /* Pods-scPO_Example-umbrella.h in Headers */,
+				825A7D8A25B18BBA007F9ABF /* SCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7390693B54C79F901F1AE1B7E339F935 /* Pods-scPO_Tests-umbrella.h in Headers */,
+				825A7D8B25B18BBA007F9ABF /* SCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				718A376E8E6FEFF2917D3F5BBB5C9402 /* scPO-umbrella.h in Headers */,
+				825A7D8C25B18BBA007F9ABF /* SCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825A7D8E25B18BBA007F9ABF /* SCView.m in Sources */,
 				1A4968286A32C64DBCCBAC1BC1F30400 /* Pods-scPO_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825A7D8D25B18BBA007F9ABF /* SCView.m in Sources */,
 				F2F8DC42D80E1BD1B9CB14FF9E9809B0 /* Pods-scPO_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,7 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B246EDB4DB1812B2675CF7C0D2ED80FF /* ReplaceMe.m in Sources */,
+				825A7D8F25B18BBA007F9ABF /* SCView.m in Sources */,
 				855AB5A41523E8C3D80F1F5DDE81AF7D /* scPO-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,8 +730,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

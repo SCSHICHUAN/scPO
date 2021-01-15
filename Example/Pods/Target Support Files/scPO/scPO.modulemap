@@ -1,0 +1,6 @@
+framework module scPO {
+  umbrella header "scPO-umbrella.h"
+
+  export *
+  module * { export * }
+}

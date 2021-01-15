@@ -1,0 +1,16 @@
+PODS:
+  - scPO (0.1.0)
+
+DEPENDENCIES:
+  - scPO (from `../`)
+
+EXTERNAL SOURCES:
+  scPO:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  scPO: 245d64e31dec2c5184b4ad2f4f800c0eac0a3378
+
+PODFILE CHECKSUM: b5d0d007c0c09aaf72072f955eecbbfb58415cdf
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,22 @@
+{
+  "name": "scPO",
+  "version": "0.1.0",
+  "summary": "A short description of scPO.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/scshichuan/scPO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "scshichuan": "573387383@QQ.COM"
+  },
+  "source": {
+    "git": "https://github.com/scshichuan/scPO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "scPO/Classes/**/*"
+}

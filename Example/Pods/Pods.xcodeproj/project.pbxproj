@@ -11,12 +11,6 @@
 		1A4968286A32C64DBCCBAC1BC1F30400 /* Pods-scPO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF280C67BDF745D6170AECAE0516B843 /* Pods-scPO_Tests-dummy.m */; };
 		718A376E8E6FEFF2917D3F5BBB5C9402 /* scPO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB155F06D5715CBA623AFB411F4FE8F /* scPO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7390693B54C79F901F1AE1B7E339F935 /* Pods-scPO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7E5663B0D308804AACCE76FF32A4E1 /* Pods-scPO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825A7D8A25B18BBA007F9ABF /* SCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A7D8825B18BBA007F9ABF /* SCView.h */; };
-		825A7D8B25B18BBA007F9ABF /* SCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A7D8825B18BBA007F9ABF /* SCView.h */; };
-		825A7D8C25B18BBA007F9ABF /* SCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A7D8825B18BBA007F9ABF /* SCView.h */; };
-		825A7D8D25B18BBA007F9ABF /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A7D8925B18BBA007F9ABF /* SCView.m */; };
-		825A7D8E25B18BBA007F9ABF /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A7D8925B18BBA007F9ABF /* SCView.m */; };
-		825A7D8F25B18BBA007F9ABF /* SCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A7D8925B18BBA007F9ABF /* SCView.m */; };
 		855AB5A41523E8C3D80F1F5DDE81AF7D /* scPO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894F09E1B936D0A8CC2466300764D798 /* scPO-dummy.m */; };
 		B0D4D4EE0885F3CC46F33837ED704A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C1FC0AA9D0058894AE5C441871D4D9AB /* Pods-scPO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 247C97A55A1F13BA8518413CFD0CB34E /* Pods-scPO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,8 +51,6 @@
 		78B93E0541C499BE976255240BB01784 /* Pods-scPO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scPO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BE79132109DD9E3B8BCEA1B5185C4CF /* Pods-scPO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scPO_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7D42EB9B8275D17AD071413EED44A1AD /* Pods-scPO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scPO_Example-dummy.m"; sourceTree = "<group>"; };
-		825A7D8825B18BBA007F9ABF /* SCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCView.h; sourceTree = "<group>"; };
-		825A7D8925B18BBA007F9ABF /* SCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCView.m; sourceTree = "<group>"; };
 		894F09E1B936D0A8CC2466300764D798 /* scPO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "scPO-dummy.m"; sourceTree = "<group>"; };
 		8DB155F06D5715CBA623AFB411F4FE8F /* scPO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "scPO-umbrella.h"; sourceTree = "<group>"; };
 		8E4FD844DC100F6EB7DBDD7014D759BE /* scPO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "scPO-Info.plist"; sourceTree = "<group>"; };
@@ -211,8 +203,6 @@
 		DCFFA5B0626CA0C6C9434AF50848E370 /* scPO */ = {
 			isa = PBXGroup;
 			children = (
-				825A7D8825B18BBA007F9ABF /* SCView.h */,
-				825A7D8925B18BBA007F9ABF /* SCView.m */,
 				DF347597AC77202B1A71A6C45F754A63 /* Pod */,
 				0301468DE0ABD212C3BBD5D3B4CB4454 /* Support Files */,
 			);
@@ -238,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1FC0AA9D0058894AE5C441871D4D9AB /* Pods-scPO_Example-umbrella.h in Headers */,
-				825A7D8A25B18BBA007F9ABF /* SCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7390693B54C79F901F1AE1B7E339F935 /* Pods-scPO_Tests-umbrella.h in Headers */,
-				825A7D8B25B18BBA007F9ABF /* SCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				718A376E8E6FEFF2917D3F5BBB5C9402 /* scPO-umbrella.h in Headers */,
-				825A7D8C25B18BBA007F9ABF /* SCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825A7D8E25B18BBA007F9ABF /* SCView.m in Sources */,
 				1A4968286A32C64DBCCBAC1BC1F30400 /* Pods-scPO_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825A7D8D25B18BBA007F9ABF /* SCView.m in Sources */,
 				F2F8DC42D80E1BD1B9CB14FF9E9809B0 /* Pods-scPO_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825A7D8F25B18BBA007F9ABF /* SCView.m in Sources */,
 				855AB5A41523E8C3D80F1F5DDE81AF7D /* scPO-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

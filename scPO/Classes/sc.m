@@ -20,7 +20,7 @@
 -(void)set
 {
     self.backgroundColor = UIColor.redColor;
-    self.bounds = [UIScreen mainScreen].bounds;
+    self.bounds = [ui mainScreen].bounds;
     UILabel *lab = [[UILabel alloc] initWithFrame:self.bounds];
     [self addSubview:lab];
     lab.font = [UIFont boldSystemFontOfSize:60];
